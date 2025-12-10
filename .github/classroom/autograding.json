@@ -1,0 +1,74 @@
+{
+  "tests": [
+    {
+      "name": "Test addition operation",
+      "setup": "",
+      "run": "python aqa_tasks.py",
+      "input": "5\n3\n+\n",
+      "output": "8",
+      "comparison": "exact",
+      "timeout": 5,
+      "points": 15
+    },
+    {
+      "name": "Test subtraction operation",
+      "setup": "",
+      "run": "python aqa_tasks.py",
+      "input": "10\n4\n-\n",
+      "output": "6",
+      "comparison": "exact",
+      "timeout": 5,
+      "points": 15
+    },
+    {
+      "name": "Test multiplication operation",
+      "setup": "",
+      "run": "python aqa_tasks.py",
+      "input": "7\n6\n*\n",
+      "output": "42",
+      "comparison": "exact",
+      "timeout": 5,
+      "points": 15
+    },
+    {
+      "name": "Test division operation",
+      "setup": "",
+      "run": "python aqa_tasks.py",
+      "input": "15\n3\n/\n",
+      "output": "5",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 15
+    },
+    {
+      "name": "Test power operation",
+      "setup": "",
+      "run": "python aqa_tasks.py",
+      "input": "2\n3\n^\n",
+      "output": "8",
+      "comparison": "exact",
+      "timeout": 5,
+      "points": 15
+    },
+    {
+      "name": "Test division by zero",
+      "setup": "",
+      "run": "python aqa_tasks.py",
+      "input": "10\n0\n/\n",
+      "output": "error",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 15
+    },
+    {
+      "name": "Test invalid operation",
+      "setup": "",
+      "run": "python aqa_tasks.py",
+      "input": "5\n3\n%\n",
+      "output": "неизвестная операция",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 10
+    }
+  ]
+}
